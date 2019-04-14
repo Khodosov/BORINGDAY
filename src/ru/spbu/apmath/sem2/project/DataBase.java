@@ -5,16 +5,16 @@ import java.util.Scanner;
 
 public class DataBase {
     Connection connection;
-    int id;
-    float score;
+    String score;
     String name;
-    String description;
-    String genre;
-    String query = "INSERT INTO films (id, name, score, genre, description) " +
-            "VALUES('"+ id +"','"+ name +"','"+ score +"'"+ genre +"', '"+ description +"');";
-    String filmsRequest = "SELECT * FROM films;";
-    String booksRequest = "SELECT * FROM books;";
-    String gamesRequest = "SELECT * FROM games;";
+    String decr;
+    String genre1;
+    String genre2;
+    String query = "INSERT INTO films (name, score, genre1, genre2, decr)" +
+            "VALUES('"+ name +"','"+ score +"'"+ genre1 +"', '"+ genre2 + "'"+ decr +"');";
+    String filmsRequest = "select * from films;";
+    String booksRequest = "SELECT * FROM books";
+    String gamesRequest = "SELECT * FROM games";
 
     public void open() {
 
@@ -34,45 +34,46 @@ public class DataBase {
 // Метод выдаёт ошибку, но он так-то и не нужен)))
     public final void insert() throws Exception {
         Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < 5; i++) {
-            System.out.println("enter the ID");
-            try {
-                id = scanner.nextInt();
-            } catch (Exception e) {
-                throw new Exception("некоректные данные");
-            }
-            System.out.println("enter the NAME");
-            try {
-                name = scanner.next();
-            } catch (Exception e) {
-                throw new Exception("некоректные данные");
-            }
-            System.out.println("enter the SCORE");
-            try {
-                score = scanner.nextFloat();
 
-            } catch (Exception e) {
-                throw new Exception("некоректные данные");
-            }
-            System.out.println("enter the GENRE");
-            try {
-                genre = scanner.next();
-            } catch (Exception e) {
-                throw new Exception("некоректные данные");
-            }
-            System.out.println("enter the DESCRIPTION");
-            try {
-                description = scanner.next();
-            } catch (Exception e) {
-                throw new Exception("некоректные данные");
-            }
-            Statement statement = connection.createStatement();
-            statement.executeUpdate(query);
-            System.out.println("insertion is done");
-            statement.close();
+        System.out.println("enter the NAME");
+        try {
+            name = scanner.nextLine();
+        } catch (Exception e) {
+            throw new Exception("некоректные данные");
+        }
+        System.out.println("Enter the score");
+        try {
+            score = scanner.nextLine();
+        } catch (Exception e) {
+            throw new Exception("некоректные данные");
+        }
+        System.out.println("Enter the genre1");
+        try {
+            genre1 = scanner.nextLine();
+        } catch (Exception e) {
+            throw new Exception("некоректные данные");
+        }
+        System.out.println("Enter the genre2");
+        try {
+            genre2 = scanner.nextLine();
+        } catch (Exception e) {
+            throw new Exception("некоректные данные");
+        }
+        System.out.println("Enter the description");
+        try {
+            decr = scanner.nextLine();
+        } catch (Exception e) {
+            throw new Exception("некоректные данные");
+        }
+        String query = "INSERT INTO films (name, score, genre1, genre2, descr)" +
+                    "VALUES('"+ name +"','"+ score +"'"+ genre1 +"', '"+ genre2 + "'"+ decr +"');";
+
+        Statement statement = connection.createStatement();
+        statement.executeUpdate(query);
+        System.out.println("insertion is done");
+        statement.close();
         }
 
-    }
 
     // какая-то лажа(((
 

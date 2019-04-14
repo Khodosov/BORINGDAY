@@ -5,6 +5,6 @@ public class Main {
         DataBase dataBase = new DataBase();
         dataBase.getConect();
         dataBase.selectFromFilms();
-
+        //dataBase.insert();
     }
 }

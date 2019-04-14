@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc13ef30-171f-47a0-af2f-e5ede5635b65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BORINGDAY/ru/spbu/apmath/sem2/project/DataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BORINGDAY/ru/spbu/apmath/sem2/project/DataBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/DataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterface.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+            <state relative-caret-position="338">
+              <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,20 +33,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="119">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterface.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="initializer##0;class#UserInterface#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterface.form">
           <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/MyWindowApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -66,11 +86,14 @@
         <option value="$PROJECT_DIR$/Main.java" />
         <option value="$PROJECT_DIR$/helloowrld.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/Main.java" />
-        <option value="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/DataBase.java" />
         <option value="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInt.form" />
         <option value="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInt.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/Main.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterface.java" />
         <option value="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterface.form" />
+        <option value="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/Test.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/MyWindowApp.java" />
       </list>
     </option>
   </component>
@@ -87,8 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,21 +139,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BORINGDAY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BORINGDAY" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="UserInterface" type="e9f4de52:FormNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555194971399" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="207" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555279744213" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -140,11 +157,11 @@
     <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\BORINGDAY\BORINGDAY\.idea\libraries" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\BORINGDAY\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BORINGDAY\BORINGDAY\.idea\libraries" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -159,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.MyWindowApp">
     <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.spbu.apmath.sem2.project.DataBase" />
       <module name="BORINGDAY" />
@@ -198,8 +215,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyWindowApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.spbu.apmath.sem2.project.MyWindowApp" />
+      <module name="BORINGDAY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.spbu.apmath.sem2.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.spbu.apmath.sem2.project.Test" />
+      <module name="BORINGDAY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.spbu.apmath.sem2.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyWindowApp" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.DataBase" />
         <item itemvalue="Application.Main" />
@@ -222,7 +267,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21140939" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16174497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -239,7 +284,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.33197832" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -269,23 +314,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helloowrld.java" />
-    <entry file="file://$USER_HOME$/Desktop/hw/hw_java/hw1/src/ru/spbu/apmath/prog/hw1/task2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/hw/hw_java/hw1/src/ru/spbu/apmath/prog/hw1/task2/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInt.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterf.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -296,26 +329,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterface.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterface.java">
+    <entry file="file://$USER_HOME$/Desktop/hw/sem2/hw1/src/ru/spbu/apmath/prog/hw1/task2/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+        <state relative-caret-position="338">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#UserInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/UserInterface.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbu/apmath/sem2/project/MyWindowApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
