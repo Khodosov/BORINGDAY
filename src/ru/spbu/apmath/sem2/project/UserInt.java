@@ -101,4 +101,5 @@ public class UserInt extends JDialog {
     public JComponent $$$getRootComponent$$$() {
         return contentPane;
     }
+
 }
