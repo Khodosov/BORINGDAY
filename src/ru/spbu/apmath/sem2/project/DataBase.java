@@ -153,8 +153,7 @@ public final void insertIntoGames() throws Exception {
 // SELECT =============================================================================================================
     public final String selectFromFilms(double score, String genre1, String genre2) throws Exception{
         String result = "";
-        String filmsRequest = "SELECT * FROM FILMS WHERE genre1 =" + genre1 + "OR genre2 =" + genre1 + "OR genre2="
-                + genre2 + "OR genre1=" + genre2 + "AND score>" + String.valueOf(score);
+        String filmsRequest = "SELECT * FROM FILMS WHERE score > " + String.valueOf(score) + "AND genre1 = " + genre1;
         Statement statement = connection.createStatement();
         ResultSet rs = statement.executeQuery(filmsRequest);
         while (rs.next()){
@@ -170,6 +169,6 @@ public final void insertIntoGames() throws Exception {
         return result;
     }
 //=====================================================================================================================
-// СДЕЛАТЬ ДЛЯ КНИГ И ИГОООООР
+// СДЕЛАТЬ ДЛЯ КНИИИИИИИИИИИИИИИИИИИИИИИГ И ИГОООООООООООООООООООР
 
 }
