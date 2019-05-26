@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 public class StartGUI extends JFrame {
     StartGUI(){
-        super("BORING DAY");
+        super("ЗДЕСЬ МОГЛА БЫ БЫТЬ ВАША РЕКЛАМА)))");
         Button button1 = new Button("Далее");
         this.setBounds(100, 100, 700, 180);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

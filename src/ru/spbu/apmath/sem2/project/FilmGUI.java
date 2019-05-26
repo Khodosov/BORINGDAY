@@ -9,6 +9,7 @@ public class FilmGUI extends JFrame {
     FilmGUI() {
         super("BORING DAY");
         Button button1 = new Button("Далее");
+        Button button2 = new Button("Назад");
         this.setBounds(100, 100, 700, 180);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container container = this.getContentPane();
@@ -16,7 +17,7 @@ public class FilmGUI extends JFrame {
 // genres =============================================================================================================
         Choice choice2 = new Choice();
         Label label2 = new Label(" Выбирайте жанры!");
-        choice2.add("");
+        //choice2.add("");
         choice2.add("история");
         choice2.add("драма");
         choice2.add("хоррор");
@@ -29,9 +30,11 @@ public class FilmGUI extends JFrame {
         choice2.add("мультфильм");
         choice2.add("приключения");
         choice2.add("документалистика");
+        choice2.add("криминал");
+        choice2.add("фентези");
 
         Choice choice3 = new Choice();
-        choice3.add("");
+        //choice3.add("");
         choice3.add("история");
         choice3.add("драма");
         choice3.add("хоррор");
@@ -44,6 +47,8 @@ public class FilmGUI extends JFrame {
         choice3.add("мультфильм");
         choice3.add("приключения");
         choice3.add("документалистика");
+        choice3.add("криминал");
+        choice3.add("фентези");
 
         container.add(label2);
         container.add(choice2);
@@ -66,10 +71,22 @@ public class FilmGUI extends JFrame {
 //=====================================================================================================================
         container.add(button1);
 
+        container.add(button2);
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                StartGUI app =  new StartGUI();
+                app.setVisible(true);
+            }
+        });
+
         button1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 DataBase dataBase = new DataBase();
-
+                try {
+                    dataBase.getConect();
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
                 double score;
                 if (choice4.getItem(choice4.getSelectedIndex()) == "я бы ТОЧНО не стал ..."){ score = 9;}
                 else if (choice4.getItem(choice4.getSelectedIndex()) == "я бы не стал ..."){ score = 19;}
@@ -83,19 +100,20 @@ public class FilmGUI extends JFrame {
 
                 String genre1 = choice2.getItem(choice2.getSelectedIndex());
                 String genre2 = choice3.getItem(choice3.getSelectedIndex());
-
-                String result = "";
+                StringBuffer result = new StringBuffer();
                 try {
-                    result = dataBase.selectFromFilms(score, genre1, genre2);
+                    result.append(dataBase.selectFromFilms(genre1, genre2));
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }
+                for (int i=0; i <= result.length(); i+=90){
+                    result.insert(i, "\n");
+                }
+                String finresult = new String(result);
+                finresult.replace('|', '\n');
+                JOptionPane.showMessageDialog(null, finresult, "Ваш результат:", JOptionPane.PLAIN_MESSAGE);
 
-                JOptionPane.showMessageDialog(null, result, "ВАШ, ВЫБРАННЫЙ МАГИЧЕСКИМ ОБРАЗОМ " +
-                        "РЕЗУЛЬТАТ..." + result , JOptionPane.PLAIN_MESSAGE);
             }
         });
-
-
     }
 }
